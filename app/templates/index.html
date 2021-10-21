@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<h1>"Notícia: " {{noticia}}</h1>
+<p>
+    Jornal: {{fonte.Jornal}} <br>
+    Dia da Edição: {{fonte.Edicao}} <br>
+</p>
+{% endblock %}
