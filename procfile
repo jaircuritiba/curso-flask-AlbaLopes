@@ -1,1 +1,1 @@
-web: gunicorn -b :$PORT microblog:app
+web: gunicorn -b :$PORT microblog:app --error-logfile d:/error.log --access-logfile d:/access.log --capture-output --log-level debug
